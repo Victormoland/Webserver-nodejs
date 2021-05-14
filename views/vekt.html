@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="assets/vekt.js" defer></script>
+    <link rel="stylesheet" href="assets/oving.css">
+    <link rel="stylesheet" href="assets/vekt.css">
+<title>ØvingHTML</title>
+</head>
+<body>
+<!--Meny div-->
+<div id="menu">
+    <img src="assets/logo.png" width="80" height="90">
+    <ul>
+        <li><a href="oving.html">Home</a></li>
+        <li><a href="vekt.html">Registrer vekt</a></li>
+        <li><a href="oving.html">Contact</a></li>
+    </ul>
+</div>
+<!--Hoved div-->
+<div id="startdiv">
+    <h1 id ="overskrift">Registrer din daglige vekt:</h1>
+    <div id ="registreringdiv">
+        <h2 id="overskrift_reg">Hvem skal veie seg: </h2>
+        <select name="names" id="bruker">
+            <option value="Amund">Amund</option>
+            <option value="Theodor">Theodor</option>
+            <option value="Victor">Victor</option>
+        </select>
+          <form id="vekt_info">
+            <label for="start">Start date:</label><br>
+            <input type="date" id="start" name="trip-start" value="2021-04-28" min="2021-04-20" max="2022-04-28"><br><br> 
+            <label for="vekt">Vekt:</label><br>
+            <input type="text" id="vekt" placeholder="Skriv inn vekt" name="vekt">
+          </form>
+        <button id="knapp_reg">SEND</button>
+    </div>
+    <div id="valgdiv"></div>
+    <div id="resultatdiv"></div>
+    <div id="footer"></div>
+</div>
+
+</body>
+</html>

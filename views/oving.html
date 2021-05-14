@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="assets/oving.js"></script>
+    <link rel="stylesheet" href="assets/oving.css">
+<title>ØvingHTML</title>
+</head>
+<body>
+<!--Meny div-->
+<div id="menu">
+    <img src="assets/logo.png" width="80" height="90">
+    <ul>
+        <li><a href="oving.html">Home</a></li>
+        <li><a href="vekt.html">Registrer vekt</a></li>
+        <li><a href="oving.html">Contact</a></li>
+    </ul>
+</div>
+<!--Hoved div-->
+<div id="startdiv">
+    <h1>Øvingside HTML</h1>
+    <h2>Spørreskjema:</h2>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <br />
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+      </form>
+    <button id="knapp_lyd" onclick="Sendinfo()" >SEND</button>
+    <!--<button id="knapp_lyd" onclick="playAudio('assets/lyd.mp3')" >SEND!</button>-->
+    <p id="Svaret"></p>
+</div>
+</body>
+</html>

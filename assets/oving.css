@@ -1,0 +1,80 @@
+body{
+  background-color: #2F4F4F;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#menu {
+  background-color:#a9a9a9;
+  width: 98.5%;
+  height: 90px;
+  top: 7px;
+  position: absolute;
+  border: 1px solid black;
+}
+#startdiv {
+  background-color:#a9a9a9d8;
+  width: 98.5%;
+  height: 638px;
+  top: 105px;
+  text-align: center;
+  position: absolute;
+  border: 1px solid black;
+}
+ul {
+  list-style-type: none;
+  margin: 1%;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a9a9a9b9;
+  position: absolute;
+  top: 5px;
+  left: 25%;
+  width: 804px;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size:20px;
+  font-weight:bold;
+  padding: 15px 77px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #2F4F4F;
+}
+h2 {
+    color: rgb(133, 133, 189);
+    left: 44%;
+    top:20%;
+    position: absolute;
+  }
+h1 {
+  color: rgb(215, 215, 235);
+  left: 42%;
+  top:10%;
+  position: absolute;
+  }
+label {
+  font-size: 20px;
+  font-weight: bolder;
+}
+form {
+    position: absolute;  
+    top: 30%;
+    left: 580px;
+}
+#knapp_lyd {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 630px;
+}
+#knapp_lyd:hover{
+  background-color: #45B08C;
+}

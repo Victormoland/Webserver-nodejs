@@ -1,0 +1,78 @@
+#overskrift{
+    position: absolute;
+    left: 35%;
+    top:0px;
+    color: white;
+    font-size: 40px;
+}
+#registreringdiv{
+    background-color: #2F4F4F;
+    position: absolute;
+    width: 40%;
+    height: 465px;
+    top: 100px;
+    left:10px;
+    border: 1px solid black;
+}
+#resultatdiv{
+    background-color: #2F4F4F;
+    position: absolute;
+    width: 40%;
+    height: 465px;
+    top: 100px;
+    text-align: center;
+    right:10px;
+    border: 1px solid black;
+}
+#valgdiv{
+    background-color: #2F4F4F;
+    position: absolute;
+    width: 17%;
+    height: 465px;
+    top: 100px;
+    text-align: center;
+    left: 550px;;
+    border: 1px solid black;
+}
+#footer{
+    background-color: rgba(88, 179, 151, 0.685);
+    position: absolute;
+    width: 98.51%;
+    height: 25px;
+    bottom: 5px;
+    text-align: center;
+    left: 10px;
+    border: 1px solid black;
+}
+#overskrift_reg{
+    position: absolute;
+    left: 30%;
+    top: 10px;
+    color: white;
+    font-size: 30px;
+}
+#knapp_reg{
+    position: absolute;
+    left: 43%;
+    top: 350px;
+    font-size: 25px;
+}
+#bruker{
+    position: absolute;
+    left: 42%;
+    top: 100px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+#knapp_reg:hover{
+    background-color: #07070793;
+    border: 1px solid black;
+}
+#vekt_info{
+    position: absolute;
+    left: 36%;
+    top: 170px;
+}
+.start{
+    font-size:40px; 
+}
